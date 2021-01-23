@@ -123,15 +123,13 @@
 	font-size: 16px;
 	color: #FF7A00;
 	text-shadow: 1px 1px #ff0000;
-	position: relative;
 	margin-top: 10px;
 }
 .more::after{
 	content: '';
-    position: absolute;
+	display: inline-block;
     width:  47px;
     height: 4px;
-    top: 8px;
     margin-left: 18px;
     background-color: #FF7A00;
     
